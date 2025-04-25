@@ -5,7 +5,7 @@ using namespace std;
 #include <stdio.h>
 
 
-float sumar(float a, float b);
+float resta(float a, float b);
 
 
 int main() {
@@ -14,7 +14,7 @@ int main() {
 
 
 
-float sumar(float a, float b) {
-    return a + b;
+float resta(float a, float b) {
+    return a - b;
 }
 
