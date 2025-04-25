@@ -9,6 +9,7 @@ float resta(float a, float b);
 float suma(float a, float b);
 float multiplicacion(float a, float b);
 float division(float a, float b);
+
 int main() {
 
     }
@@ -23,7 +24,6 @@ float resta(float a, float b) {
 }
 float multiplicacion(float a, float b) {
     return a * b;
-
 }
 float division(float a, float b) {
     return a/b;
