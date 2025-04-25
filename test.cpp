@@ -6,7 +6,7 @@ using namespace std;
 
 
 float resta(float a, float b);
-
+float suma(float a, float b);
 
 int main() {
 
@@ -14,6 +14,9 @@ int main() {
 
 
 
+float suma(float a, float b) {
+    return a + b;
+}
 float resta(float a, float b) {
     return a - b;
 }
